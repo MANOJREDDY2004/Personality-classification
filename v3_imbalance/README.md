@@ -6,7 +6,7 @@ v3 applies the fixes to a larger, naturally imbalanced dataset.
 ## Data
 Kaggle "(MBTI) Myers-Briggs Personality Type Dataset" (`datasnaek/mbti-type`): the last 50 forum posts
 of 8,675 PersonalityCafe users, each labeled with a four-letter type. Target here = first letter (I vs. E).
-The raw file is not committed; download it from Kaggle and place it in this folder.
+The raw file is not committed; download it from Kaggle and place it place it at data/mbti_1.csv (create the data folder).
 
 - n = 8,675 | Extrovert (minority, positive class) = 23.0% | Introvert = 77.0%
 - An "always introvert" model gets **77.0% accuracy**, so accuracy alone is not informative.
