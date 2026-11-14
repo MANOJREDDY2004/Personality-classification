@@ -1,0 +1,4 @@
+version,accuracy,macro_f1,min_prec,min_rec,min_f1,pr_auc,roc_auc
+1) raw posts (type codes present),0.839,0.78,0.636,0.702,0.667,0.707,0.879
+2) type codes stripped,0.765,0.686,0.492,0.571,0.528,0.524,0.785
+3) + jargon stripped (strict),0.756,0.677,0.475,0.566,0.517,0.493,0.77

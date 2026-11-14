@@ -1,0 +1,6 @@
+model,accuracy,macro_f1,min_prec,min_rec,min_f1,pr_auc,roc_auc
+LogReg class_weight=balanced,0.765,0.686,0.492,0.571,0.528,0.524,0.785
+Random oversampling + LogReg,0.772,0.682,0.504,0.522,0.513,0.522,0.783
+Balanced LogReg + tuned threshold,0.735,0.674,0.453,0.659,0.534,0.524,0.785
+LogReg (no imbalance handling),0.778,0.487,0.739,0.054,0.101,0.523,0.786
+Baseline (always introvert),0.77,0.435,0.0,0.0,0.0,,

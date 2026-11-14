@@ -1,0 +1,6 @@
+model,accuracy,acc_std,macro_f1,roc_auc
+Baseline (majority class),0.514,0.013,0.339,
+"KNN k=5, word TF-IDF",0.723,0.054,0.716,0.807
+"LogReg, word TF-IDF",0.685,0.057,0.682,0.783
+"LogReg, char TF-IDF",0.709,0.057,0.705,0.795
+"LinearSVC, word TF-IDF",0.688,0.05,0.685,0.789

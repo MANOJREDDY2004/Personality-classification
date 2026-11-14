@@ -1,0 +1,4 @@
+model,rmse,pearson_r
+Baseline (mean),0.157,-0.168
+"Ridge, word TF-IDF",0.15,0.366
+"Ridge, char TF-IDF",0.151,0.323

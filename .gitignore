@@ -1,0 +1,7 @@
+archive/
+*.zip
+v3_imbalance/data/
+mbti_1.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
